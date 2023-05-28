@@ -1,0 +1,57 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+
+.note{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+body{
+    background-size: cover;
+}
+
+#speed , #volume{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume_img ,.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_volume{
+    float: right;
+}
+
+.play_button{
+    font-size: 25px;
+    width: 100px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px white;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: black;
+    box-shadow: 5px 5px 20px grey;
+    width: 100%;
+    bottom: 0;
+    background-color: darkgrey;
+    text-align: center;
+    line-height: 3;
+}
